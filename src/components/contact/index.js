@@ -1,14 +1,47 @@
 import React, { Component } from 'react'
-import '../App.css'
+import './contact.css'
 
 class Contact extends Component {
-  render() {
-    return (
-      <div className="Contact">
-        this will be the Contact
-      </div>
-    )
-  }
+    state = {
+      firstName: '',
+      lastName: '',
+      email: '',
+      message: ''
+    }
+
+    onSubmit = () => console.log('formspree hookup to come', this.state)
+    textChange = (e) => this.setState({ [e.target.name]: e.target.value })
+    render() {
+      return (
+        <div className="contactContainer">
+          <input 
+            className='input'
+            value={this.state.firstName}
+            name='firstName'
+            onChange={this.textChange} />
+          <input 
+            className='input'
+            value={this.state.lastName}
+            name='lastName'
+            onChange={this.textChange} />
+          <input 
+            className='input'
+            value={this.state.email}
+            name='email'
+            onChange={this.textChange} />
+          <textarea
+            className='message'
+            name='message'
+            value={this.state.message}
+            onChange={this.textChange} />
+          <button
+            className='btn'
+            onClick={this.onSubmit}>
+                Submit
+          </button>
+        </div>
+      )
+    }
 }
 
 

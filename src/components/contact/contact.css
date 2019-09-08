@@ -1,0 +1,10 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input, textarea {
+    border: solid rgb(248, 193, 91) 1px;
+    border-radius: 8px;
+    resize: none;
+}
