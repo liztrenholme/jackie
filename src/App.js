@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <footer style={{fontSize: '0.8em', alignSelf: 'flex-end'}}>Jackie Pavel {year}</footer>
+      <footer>Jackie Pavel &#9400; {year} | All rights reserved.</footer>
     </div>
   )
 }
