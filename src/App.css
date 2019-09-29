@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    font-family: 'Be Vietnam', sans-serif;
 }
 
 .App-logo {
@@ -33,6 +34,15 @@ footer {
 .home {
   min-height: 32em;
   width: 100%;
+}
+
+.quoteBox {
+  font-family: 'Mansalva', cursive;
+  background-color: #ffffcc;
+  margin: 0 0 1em 50%;
+  padding: 1em;
+  height: 3em;
+  line-height: 1.5em;
 }
 
 @keyframes App-logo-spin {

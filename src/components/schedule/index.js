@@ -4,8 +4,8 @@ import './schedule.css'
 class Schedule extends Component {
   render() {
     return (
-      <div className="Schedule">
-        this will be the Schedule
+      <div className="schedule">
+        <p>Calendly plug-in here?</p>
       </div>
     )
   }

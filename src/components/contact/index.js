@@ -14,6 +14,12 @@ class Contact extends Component {
     render() {
       return (
         <div className="contactContainer">
+          Contact me contact me contact me contact me contact me contact me 
+          contact me contact me contact me contact me contact me contact me 
+          contact me contact me contact me contact me contact me contact me 
+          contact me contact me contact me contact me contact me contact me 
+          contact me contact me contact me contact me contact me contact me 
+          contact me contact me contact me contact me 
           <input 
             className='input'
             value={this.state.firstName}
