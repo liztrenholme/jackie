@@ -26,12 +26,13 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 footer {
   font-size: 0.8em;
+}
+
+.home {
+  min-height: 32em;
+  width: 100%;
 }
 
 @keyframes App-logo-spin {

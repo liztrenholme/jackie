@@ -5,9 +5,14 @@ import headshot from '../../assets/jackie.jpg'
 class About extends Component {
   render() {
     return (
-      <div className="About">
+      <div className="about">
         <img className='headshot' src={headshot} alt='Jackie' />
-        this will be the About
+        About me about me about me about me about me about me 
+        about me about me about me about me about me about me 
+        about me about me about me about me about me about me 
+        about me about me about me about me about me about me 
+        about me about me about me about me about me about me 
+        about me about me about me about me about me about me 
       </div>
     )
   }
