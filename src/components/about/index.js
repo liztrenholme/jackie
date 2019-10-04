@@ -6,13 +6,21 @@ class About extends Component {
   render() {
     return (
       <div className="about">
-        <img className='headshot' src={headshot} alt='Jackie' />
+        <p className="blurb">
+          <img className='headshot' src={headshot} alt='Jackie' />
         About me about me about me about me about me about me 
         about me about me about me about me about me about me 
         about me about me about me about me about me about me 
         about me about me about me about me about me about me 
         about me about me about me about me about me about me 
         about me about me about me about me about me about me 
+        </p>
+        <p className="blurb">
+          Mission statement mission statement mission statement 
+          mission statement mission statement mission statement 
+          mission statement mission statement mission statement 
+          mission statement 
+        </p>
       </div>
     )
   }

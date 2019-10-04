@@ -1,12 +1,19 @@
 .about {
-    margin: 4em 3em;
+    margin: 5em 3em;
 }
 .headshot {
     width: 10em;
     border: 5px solid lightgray;
     float: right;
+    margin: .5em;
+}
+p {
+    text-align: justify;
 }
 @media only screen and (max-width: 500px) {
+    .about {
+        margin: 7em 2em;
+    }
     .headshot {
         width: 5em;
     }

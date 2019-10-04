@@ -9,7 +9,7 @@ class Contact extends Component {
       message: ''
     }
 
-    onSubmit = () => console.log('formspree hookup to come', this.state)
+    // onSubmit = () => console.log('formspree hookup to come', this.state)
     textChange = (e) => this.setState({ [e.target.name]: e.target.value })
     render() {
       return (
