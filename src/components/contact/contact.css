@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     margin: 4em 3em;
-    /* font-size: 1.5em; */
 }
 .input, textarea {
     border: solid rgb(248, 193, 91) 1px;
