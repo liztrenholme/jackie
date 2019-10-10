@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/jackie/static/css/main.fd95071e.chunk.css",
+    "main.js": "/jackie/static/js/main.8572201e.chunk.js",
+    "main.js.map": "/jackie/static/js/main.8572201e.chunk.js.map",
+    "runtime~main.js": "/jackie/static/js/runtime~main.37319ccc.js",
+    "runtime~main.js.map": "/jackie/static/js/runtime~main.37319ccc.js.map",
+    "static/js/2.b5aafd22.chunk.js": "/jackie/static/js/2.b5aafd22.chunk.js",
+    "static/js/2.b5aafd22.chunk.js.map": "/jackie/static/js/2.b5aafd22.chunk.js.map",
+    "index.html": "/jackie/index.html",
+    "precache-manifest.88676199bdcf0824f2ffe4994f01982d.js": "/jackie/precache-manifest.88676199bdcf0824f2ffe4994f01982d.js",
+    "service-worker.js": "/jackie/service-worker.js",
+    "static/css/main.fd95071e.chunk.css.map": "/jackie/static/css/main.fd95071e.chunk.css.map",
+    "static/media/couch.jpg": "/jackie/static/media/couch.6e2d46a7.jpg",
+    "static/media/jackie.jpg": "/jackie/static/media/jackie.ae545394.jpg",
+    "static/media/office1.jpg": "/jackie/static/media/office1.99c4b06a.jpg"
+  }
+}
