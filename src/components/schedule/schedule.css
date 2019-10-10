@@ -1,3 +1,9 @@
 .schedule {
     margin: 4em 3em;
 }
+.heropic {
+    width: 10em;
+    border: 5px solid lightgray;
+    float: left;
+    margin: .5em;
+}

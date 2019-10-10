@@ -1,5 +1,5 @@
 .about {
-    margin: 5em 3em;
+    margin: 5em 5em;
 }
 .headshot {
     width: 10em;
@@ -9,6 +9,9 @@
 }
 p {
     text-align: justify;
+}
+h2 {
+    text-align: left;
 }
 @media only screen and (max-width: 500px) {
     .about {
