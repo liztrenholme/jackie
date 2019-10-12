@@ -12,7 +12,7 @@ function App() {
       <div className="quoteBox">
         {'Your journey is unfolding exactly the way it\'s meant to.'}
       </div>
-      <footer>Jackie Pavel &#9400; {year} | All rights reserved.</footer>
+      <footer>Jackie Paval &#9400; {year} | All rights reserved.</footer>
     </div>
   )
 }

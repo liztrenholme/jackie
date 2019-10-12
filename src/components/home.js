@@ -7,7 +7,7 @@ import '../App.css'
 
 class Home extends Component {
     state = {
-      view: ''
+      view: 'about'
     }
 
     selectView = (view) => {
@@ -17,7 +17,7 @@ class Home extends Component {
       const { view } = this.state
       return (
         <div className="home">
-          <Navbar selectView={this.selectView} />
+          <Navbar selectView={this.selectView} active={view} />
           {view === 'about' ?
             <About /> : view === 'contact' ?
               <Contact /> : view === 'schedule' ?
